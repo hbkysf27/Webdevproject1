@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip With Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!--Navigation-->
+
+    <div class="container-fluid col-10">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Destinations">Destinations</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our services
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#services">Hotel & Resturant bookings</a></li>
+                                <li><a class="dropdown-item" href="#services">Our personalised Packages</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Our team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!----Homepage-->
+
+        <section id="Home">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 c01-12 order-sm-1 pt-5">
+                    <h1 class="display-4"> Welcome To <br> <span>Trip With Us</span> </h1>
+                    <p class="my-lg-2 my-3">We help you to enhance the vaccation in Sri Lanka. You can find our different packages of trip plans or you can custamize your own plans with us. From the moment you landed Sri Lanka to return of your journey,we'll assist you. </p>
+
+                    <button class="btn btn-primary my-lg-3 my-3">Plan Your Tour</button>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+                    <img src="home.png" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!----DestinationPage-->
+
+        <section id="Destinations">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 c01-12 order-sm-1 pt-5">
+                    <h1 class="display-4"><span>Pre planned packages to enhance your vacation.</span> </h1>
+                    <h4 class="my-lg-2 my-3">Select your comfort destination points in Sri Lanka.</h4>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="hill.jpg" class="img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Top Hiking spots in Sri Lanka</h5>
+                                    <h6>For the adventures treaking hiking lovers.</h6>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="coast.jpg" class="img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Best Coastal areas in Sri Lanka</h5>
+                                    <h6>For the Beach lovers.</h6>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="buddha.jpg" class="img-fluid">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Spritual calm lovers</h5>
+                                    <h6>For the people who loves to explore Buddha and buddhist temples.</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!----Services-->
+
+        <section id="services">
+            <div class="row">
+                <h1 class="text-center">Our Servicies</h1>
+                <div class="col-md-4 my-2">
+                    <div class="card shadow">
+                        <div class="inner">
+                            <img src="plan.jpg" class="card-img-top rounded">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Your tour is one click away...</h4>
+                            <p class="card-text">Plan your whole trip includig food, accomadation and vehicle plans with easy way and friendly tour guides.
+                                <a href="#" class="btn btn-success">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-2">
+                    <div class="card shadow">
+                        <div class="inner">
+                            <img src="hotel.jpg" class="card-img-top rounded">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Ranked Hotels...</h4>
+                            <p class="card-text">We help you to book your hotels that fits your budget plan.
+                                <a href="#" class="btn btn-success">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 my-2">
+                    <div class="card shadow">
+                        <div class="inner">
+                            <img src="vehicle.jpg" class="card-img-top rounded">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Need vehicle to hire...</h4>
+                            <p class="card-text">Car or van is one click away from your mobile to hire that too anywhere in Sri Lanka.
+                                <a href="#" class="btn btn-success">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!---Contactus-->
+
+        <section id="contact">
+            <div class=" col-lg-4 col-md-6 c01-12">
+                <form>
+                    <div class="background">
+                        <div class="container">
+                            <div class="screen">
+                                <div class="screen-header">
+                                    <div class="screen-header-left">
+                                        <div class="screen-header-button close"></div>
+                                        <div class="screen-header-button maximize"></div>
+                                        <div class="screen-header-button minimize"></div>
+                                    </div>
+                                    <div class="screen-header-right">
+                                        <div class="screen-header-ellipsis"></div>
+                                        <div class="screen-header-ellipsis"></div>
+                                        <div class="screen-header-ellipsis"></div>
+                                    </div>
+                                </div>
+                                <div class="screen-body">
+                                    <div class="screen-body-item left">
+                                        <div class="app-title">
+                                            <h3>CONTACT</h3>
+                                            <h3>US</h3>
+                                        </div>
+                                        <div class="app-contact">CONTACT INFO : +1234567890</div>
+                                    </div>
+                                    <div class="screen-body-item">
+                                        <div class="app-form">
+                                            <div class="app-form-group">
+                                                <input class="app-form-control" placeholder="NAME">
+                                            </div>
+                                            <div class="app-form-group">
+                                                <input class="app-form-control" placeholder="EMAIL">
+                                            </div>
+                                            <div class="app-form-group">
+                                                <input class="app-form-control" placeholder="CONTACT NO">
+                                            </div>
+                                            <div class="app-form-group message">
+                                                <input class="app-form-control" placeholder="MESSAGE">
+                                            </div>
+                                            <div class="app-form-group buttons">
+                                                <button class="app-form-button">CANCEL</button>
+                                                <button class="app-form-button">SEND</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
